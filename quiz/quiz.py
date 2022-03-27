@@ -37,44 +37,43 @@ user on basic high school trivia.
 #Print out the users score: "You got a [score]/4. Or a [p]%."
 
 score = 0
-
-z = int("What is the powerhouse of he cell?")
+ansOne = input("Enter a letter: A) Mitochondria B) Nucleus C) Ribosome")
 a = ("Mitochondria")
 b = ("Nucleus")
 c = ("Ribosome")
-if z.lower() == "a":
-    print("Correct") 
+if(ansOne.lower() == "a"):
     score = (score + 1)
+    print("Correct") 
 else:
     print("Incorrect, the answer is the A")
     
-y = int("How many states comprise the United States?")
+y = input("Enter a letter: A) 13 B) 45 C) 50")
 a = ("13")
 b = ("45")
 c = ("50")
-if y.lower() == "c":
-    print("Correct")
+if(y.lower() == "c"):
     score = (score + 1)
+    print("Correct")
 else:
     print("Incorrect, the answer is C")
 
-x = int("In y = mx + b, what does m stand for?")
+x = input("Enter a letter: A) Slope B) Output C) I don't understand math")
 a = ("Slope")
 b = ("Output")
 c = ("I don't understand math")
-if x.lower() == "a":
-    print("Correct")
+if(x.lower() == "a"):
     score = (score + 1)
+    print("Correct")
 else:
     print("Incorrect, the answer is A")
 
-w = int("In English, a person, place or thing is called:")
+w = input("Enter a letter: A) Verb B) Adjective C) Noun")
 a = ("Verb")
 b = ("Adjective")
 c = ("Noun")
-if w.lower() == "c":
-    print ("Correct")
+if(w.lower() == "c"):
     score = (score + 1)
+    print ("Correct")
 else:
     print("Incorrect, the answer is C")
 
